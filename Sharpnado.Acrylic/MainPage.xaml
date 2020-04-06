@@ -14,7 +14,15 @@
     </ContentPage.Resources>
 
     <ScrollView>
-        <StackLayout Padding="20,60,20,60" Spacing="10">
+        <StackLayout Spacing="10">
+            <StackLayout.Padding>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <OnPlatform.Platforms>
+                        <On Platform="Android" Value="20,60,20,60" />
+                        <On Platform="iOS" Value="20,40,20,60" />
+                    </OnPlatform.Platforms>
+                </OnPlatform>
+            </StackLayout.Padding>
 
             <Grid Margin="{StaticResource MenuMargin}">
                 <Grid.RowDefinitions>
@@ -28,7 +36,8 @@
                     <ColumnDefinition Width="30" />
                 </Grid.ColumnDefinitions>
 
-                <Frame Grid.RowSpan="2"
+                <Frame x:Name="ImageFrame"
+                       Grid.RowSpan="2"
                        Grid.Column="0"
                        WidthRequest="40"
                        HeightRequest="40"
@@ -69,7 +78,7 @@
 
             </Grid>
 
-            <rv:MaterialFrame Padding="20,5">
+            <rv:MaterialFrame x:Name="Search" Padding="20,5">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30" />
