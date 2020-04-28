@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style x:Key="RadioButton" TargetType="Button">
+        <Setter Property="BorderColor" Value="{DynamicResource DynamicPrimaryColor}" />
+        <Setter Property="BorderWidth" Value="2" />
+        <Setter Property="CornerRadius" Value="15" />
+        <Setter Property="Padding">
+            <OnPlatform x:TypeArguments="Thickness">
+                <OnPlatform.Platforms>
+                    <On Platform="Android" Value="0" />
+                    <On Platform="iOS" Value="10" />
+                </OnPlatform.Platforms>
+            </OnPlatform>
+        </Setter>
+        <Setter Property="TextColor" Value="{DynamicResource DynamicTextPrimaryColor}" />
+        <Setter Property="FontFamily" Value="{StaticResource FontRegular}" />
+        <Setter Property="FontSize" Value="{StaticResource TextSizeBody}" />
+    </Style>
+
+</ResourceDictionary>

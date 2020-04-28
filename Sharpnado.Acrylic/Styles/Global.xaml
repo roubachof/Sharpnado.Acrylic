@@ -10,7 +10,7 @@
 
     <Style ApplyToDerivedTypes="True" TargetType="ContentPage">
         <Setter Property="Padding" Value="0" />
-        <Setter Property="BackgroundColor" Value="{StaticResource AcrylicSurface}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource DynamicBackgroundColor}" />
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="Grid">

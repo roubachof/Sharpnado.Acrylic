@@ -35,48 +35,48 @@
                      FontFamily="{StaticResource FontAwesome}"
                      Glyph="{x:Static fontAwesome:IconFont.Cog}"
                      Size="{StaticResource SizeMediumSmallIcon}"
-                     Color="{StaticResource PrimaryColor}" />
+                     Color="{DynamicResource DynamicPrimaryOnBackgroundColor}" />
 
     <FontImageSource x:Key="IconSun"
                      FontFamily="{StaticResource FontAwesome}"
                      Glyph="{x:Static fontAwesome:IconFont.Sun}"
                      Size="{StaticResource SizeSmallIcon}"
-                     Color="{StaticResource SecondaryColor}" />
+                     Color="{DynamicResource DynamicSecondaryOnBackgroundColor}" />
 
     <FontImageSource x:Key="IconSearch"
                      FontFamily="{StaticResource FontAwesome}"
                      Glyph="{x:Static fontAwesome:IconFont.Search}"
                      Size="{StaticResource SizeSmallIcon}"
-                     Color="{StaticResource PrimaryColor}" />
+                     Color="{DynamicResource DynamicPrimaryColor}" />
 
     <FontImageSource x:Key="IconPlus"
                      FontFamily="{StaticResource FontAwesome}"
                      Glyph="{x:Static fontAwesome:IconFont.Plus}"
                      Size="{StaticResource SizeSmallIcon}"
-                     Color="{StaticResource PrimaryColor}" />
+                     Color="{DynamicResource DynamicPrimaryColor}" />
 
     <FontImageSource x:Key="IconSquare"
                      FontFamily="{StaticResource FontAwesomeRegular}"
                      Glyph="{x:Static fontAwesome:IconFont.Square}"
                      Size="{StaticResource SizeSmallIcon}"
-                     Color="{StaticResource PrimaryColor}" />
+                     Color="{DynamicResource DynamicPrimaryColor}" />
 
     <FontImageSource x:Key="IconCheck"
                      FontFamily="{StaticResource FontAwesome}"
                      Glyph="{x:Static fontAwesome:IconFont.Check}"
                      Size="{StaticResource SizeSmallIcon}"
-                     Color="{StaticResource PrimaryColor}" />
+                     Color="{DynamicResource DynamicPrimaryColor}" />
 
     <FontImageSource x:Key="IconMic"
                      FontFamily="{StaticResource FontAwesome}"
                      Glyph="{x:Static fontAwesome:IconFont.Microphone}"
                      Size="{StaticResource SizeSmallIcon}"
-                     Color="{StaticResource PrimaryColor}" />
+                     Color="{DynamicResource DynamicPrimaryColor}" />
 
     <FontImageSource x:Key="IconDots"
                      FontFamily="{StaticResource FontAwesome}"
                      Glyph="{x:Static fontAwesome:IconFont.EllipsisH}"
                      Size="{StaticResource SizeMediumSmallIcon}"
-                     Color="{StaticResource PrimaryColor}" />
+                     Color="{DynamicResource DynamicPrimaryOnBackgroundColor}" />
 
 </ResourceDictionary>

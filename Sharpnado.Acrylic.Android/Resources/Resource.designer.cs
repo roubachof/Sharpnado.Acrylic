@@ -569,6 +569,10 @@ namespace Sharpnado.Acrylic.Droid
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Sharpnado.Acrylic.Droid.Resource.Color.bright_foreground_inverse_material_light;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::Sharpnado.Acrylic.Droid.Resource.Color.bright_foreground_material_dark;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_light = global::Sharpnado.Acrylic.Droid.Resource.Color.bright_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.browser_actions_bg_grey = global::Sharpnado.Acrylic.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.browser_actions_divider_color = global::Sharpnado.Acrylic.Droid.Resource.Color.browser_actions_divider_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.browser_actions_text_color = global::Sharpnado.Acrylic.Droid.Resource.Color.browser_actions_text_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.browser_actions_title_color = global::Sharpnado.Acrylic.Droid.Resource.Color.browser_actions_title_color;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_dark = global::Sharpnado.Acrylic.Droid.Resource.Color.button_material_dark;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_light = global::Sharpnado.Acrylic.Droid.Resource.Color.button_material_light;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_dark_background = global::Sharpnado.Acrylic.Droid.Resource.Color.cardview_dark_background;
@@ -736,6 +740,8 @@ namespace Sharpnado.Acrylic.Droid
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Sharpnado.Acrylic.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::Sharpnado.Acrylic.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Sharpnado.Acrylic.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::Sharpnado.Acrylic.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::Sharpnado.Acrylic.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Sharpnado.Acrylic.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::Sharpnado.Acrylic.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_radius = global::Sharpnado.Acrylic.Droid.Resource.Dimension.cardview_default_radius;
@@ -868,6 +874,10 @@ namespace Sharpnado.Acrylic.Droid
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_subtext_size = global::Sharpnado.Acrylic.Droid.Resource.Dimension.notification_subtext_size;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad = global::Sharpnado.Acrylic.Droid.Resource.Dimension.notification_top_pad;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad_large_text = global::Sharpnado.Acrylic.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.subtitle_corner_radius = global::Sharpnado.Acrylic.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.subtitle_outline_width = global::Sharpnado.Acrylic.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.subtitle_shadow_offset = global::Sharpnado.Acrylic.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.subtitle_shadow_radius = global::Sharpnado.Acrylic.Droid.Resource.Dimension.subtitle_shadow_radius;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_corner_radius = global::Sharpnado.Acrylic.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Sharpnado.Acrylic.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_margin = global::Sharpnado.Acrylic.Droid.Resource.Dimension.tooltip_margin;
@@ -1020,6 +1030,11 @@ namespace Sharpnado.Acrylic.Droid
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.beginning = global::Sharpnado.Acrylic.Droid.Resource.Id.beginning;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.blocking = global::Sharpnado.Acrylic.Droid.Resource.Id.blocking;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.bottom = global::Sharpnado.Acrylic.Droid.Resource.Id.bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.browser_actions_header_text = global::Sharpnado.Acrylic.Droid.Resource.Id.browser_actions_header_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.browser_actions_menu_items = global::Sharpnado.Acrylic.Droid.Resource.Id.browser_actions_menu_items;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.browser_actions_menu_item_icon = global::Sharpnado.Acrylic.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.browser_actions_menu_item_text = global::Sharpnado.Acrylic.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.browser_actions_menu_view = global::Sharpnado.Acrylic.Droid.Resource.Id.browser_actions_menu_view;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.buttonPanel = global::Sharpnado.Acrylic.Droid.Resource.Id.buttonPanel;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.cancel_action = global::Sharpnado.Acrylic.Droid.Resource.Id.cancel_action;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center = global::Sharpnado.Acrylic.Droid.Resource.Id.center;
@@ -1227,6 +1242,8 @@ namespace Sharpnado.Acrylic.Droid
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_view = global::Sharpnado.Acrylic.Droid.Resource.Layout.abc_search_view;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::Sharpnado.Acrylic.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_tooltip = global::Sharpnado.Acrylic.Droid.Resource.Layout.abc_tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.browser_actions_context_menu_page = global::Sharpnado.Acrylic.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.browser_actions_context_menu_row = global::Sharpnado.Acrylic.Droid.Resource.Layout.browser_actions_context_menu_row;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_navigation_item = global::Sharpnado.Acrylic.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Sharpnado.Acrylic.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar = global::Sharpnado.Acrylic.Droid.Resource.Layout.design_layout_snackbar;
@@ -10823,88 +10840,106 @@ namespace Sharpnado.Acrylic.Droid
 			public const int avd_show_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int bottom_shadow = 2131165276;
+			public const int bing_dark = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int design_bottom_navigation_item_background = 2131165277;
+			public const int bing_light = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int design_fab_background = 2131165278;
+			public const int bottom_shadow = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_ic_visibility = 2131165279;
+			public const int catalina_dark = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_ic_visibility_off = 2131165280;
+			public const int catalina_light = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_password_eye = 2131165281;
+			public const int design_bottom_navigation_item_background = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_snackbar_background = 2131165282;
+			public const int design_fab_background = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_black = 2131165283;
+			public const int design_ic_visibility = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_checked_circle = 2131165284;
+			public const int design_ic_visibility_off = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int ic_mtrl_chip_close_circle = 2131165285;
+			public const int design_password_eye = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int mtrl_snackbar_background = 2131165286;
+			public const int design_snackbar_background = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int mtrl_tabs_default_indicator = 2131165287;
+			public const int ic_mtrl_chip_checked_black = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int navigation_empty_icon = 2131165288;
+			public const int ic_mtrl_chip_checked_circle = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int notification_action_background = 2131165289;
+			public const int ic_mtrl_chip_close_circle = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_bg = 2131165290;
+			public const int milky_light = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_bg_low = 2131165291;
+			public const int mtrl_snackbar_background = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_bg_low_normal = 2131165292;
+			public const int mtrl_tabs_default_indicator = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg_low_pressed = 2131165293;
+			public const int navigation_empty_icon = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_normal = 2131165294;
+			public const int notification_action_background = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_bg_normal_pressed = 2131165295;
+			public const int notification_bg = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_icon_background = 2131165296;
+			public const int notification_bg_low = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_template_icon_bg = 2131165297;
+			public const int notification_bg_low_normal = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_template_icon_low_bg = 2131165298;
+			public const int notification_bg_low_pressed = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_tile_bg = 2131165299;
+			public const int notification_bg_normal = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notify_panel_notification_icon_bg = 2131165300;
+			public const int notification_bg_normal_pressed = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int tooltip_frame_dark = 2131165301;
+			public const int notification_icon_background = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int tooltip_frame_light = 2131165302;
+			public const int notification_template_icon_bg = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int top_shadow = 2131165303;
+			public const int notification_template_icon_low_bg = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int notification_tile_bg = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int notify_panel_notification_icon_bg = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int tooltip_frame_dark = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int tooltip_frame_light = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int top_shadow = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int undersea_light = 2131165309;
 			
 			static Drawable()
 			{

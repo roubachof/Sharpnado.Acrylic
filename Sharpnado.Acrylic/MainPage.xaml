@@ -6,8 +6,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:images="clr-namespace:Sharpnado.Acrylic.Images;assembly=Sharpnado.Acrylic"
-             xmlns:rv="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
-             BackgroundColor="{StaticResource AcrylicSurface}">
+             xmlns:rv="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+             BackgroundColor="{DynamicResource DynamicBackgroundColor}"
+             BackgroundImageSource="{DynamicResource DynamicBackgroundImageSource}">
 
     <ContentPage.Resources>
         <ResourceDictionary />
@@ -23,6 +24,64 @@
                     </OnPlatform.Platforms>
                 </OnPlatform>
             </StackLayout.Padding>
+
+            <rv:MaterialFrame x:Name="SettingsFrame" IsVisible="True">
+                <Grid x:Name="SettingsGrid"
+                      ColumnSpacing="20"
+                      RowSpacing="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition x:Name="SwitchRow" Height="30" />
+                        <RowDefinition x:Name="BlurStyleRow" Height="30" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Switch Grid.Row="0"
+                            Grid.Column="0"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            OnColor="Black"
+                            Scale="0.8"
+                            ThumbColor="White"
+                            Toggled="SwitchOnToggled"
+                            TranslationX="-5" />
+                    <Label Grid.Row="0"
+                           Grid.Column="1"
+                           Grid.ColumnSpan="2"
+                           Style="{StaticResource TextBody}"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           Text="Enable Acrylic Blur" />
+
+                    <Button x:Name="LightButton"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Style="{StaticResource RadioButton}"
+                            HorizontalOptions="End"
+                            VerticalOptions="Center"
+                            Clicked="BlurStyleButtonOnClicked"
+                            Text="Light" />
+                    <Button x:Name="DarkButton"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Style="{StaticResource RadioButton}"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            Clicked="BlurStyleButtonOnClicked"
+                            Text="Dark" />
+                    <Button x:Name="ExtraLightButton"
+                            Grid.Row="1"
+                            Grid.Column="2"
+                            Style="{StaticResource RadioButton}"
+                            HorizontalOptions="Start"
+                            VerticalOptions="Center"
+                            Clicked="BlurStyleButtonOnClicked"
+                            Text="ExtraLight" />
+                </Grid>
+            </rv:MaterialFrame>
 
             <Grid Margin="{StaticResource MenuMargin}">
                 <Grid.RowDefinitions>
@@ -55,7 +114,8 @@
                        Grid.ColumnSpan="2"
                        Style="{StaticResource TextTitle}"
                        VerticalOptions="End"
-                       Text="Good Afternoon, JM" />
+                       Text="Good Afternoon, JM"
+                       TextColor="{DynamicResource DynamicPrimaryOnBackgroundColor}" />
 
                 <Image Grid.Row="1"
                        Grid.Column="1"
@@ -67,14 +127,16 @@
                        Style="{StaticResource TextSubtitleSecondary}"
                        Margin="0,4.5,0,0"
                        VerticalOptions="Start"
-                       Text="   11°C  Paris" />
+                       Text="   11°C  Paris"
+                       TextColor="{DynamicResource DynamicSecondaryOnBackgroundColor}" />
 
-                <Image Grid.Row="0"
-                       Grid.RowSpan="2"
-                       Grid.Column="3"
-                       HorizontalOptions="End"
-                       VerticalOptions="Center"
-                       Source="{StaticResource IconCog}" />
+                <ImageButton Grid.Row="0"
+                             Grid.RowSpan="2"
+                             Grid.Column="3"
+                             HorizontalOptions="End"
+                             VerticalOptions="Center"
+                             Clicked="SettingsButtonOnClicked"
+                             Source="{StaticResource IconCog}" />
 
             </Grid>
 
@@ -111,7 +173,8 @@
 
                 <Label Grid.Column="0"
                        Style="{StaticResource TextHeadline}"
-                       Text="Tasks" />
+                       Text="Tasks"
+                       TextColor="{DynamicResource DynamicPrimaryOnBackgroundColor}" />
                 <Image Grid.Column="1"
                        HorizontalOptions="End"
                        VerticalOptions="End"
@@ -173,7 +236,8 @@
 
                 <Label Grid.Column="0"
                        Style="{StaticResource TextHeadline}"
-                       Text="Pinned" />
+                       Text="Pinned"
+                       TextColor="{DynamicResource DynamicPrimaryOnBackgroundColor}" />
                 <Image Grid.Column="1"
                        HorizontalOptions="End"
                        VerticalOptions="End"
@@ -279,7 +343,8 @@
 
                 <Label Grid.Column="0"
                        Style="{StaticResource TextHeadline}"
-                       Text="Recent" />
+                       Text="Recent"
+                       TextColor="{DynamicResource DynamicPrimaryOnBackgroundColor}" />
                 <Image Grid.Column="1"
                        HorizontalOptions="End"
                        VerticalOptions="End"
