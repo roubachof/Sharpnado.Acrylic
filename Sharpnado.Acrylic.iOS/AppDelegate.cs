@@ -1,7 +1,5 @@
 ﻿using Foundation;
 
-using Sharpnado.Presentation.Forms.iOS;
-
 using UIKit;
 
 namespace Sharpnado.Acrylic.iOS
@@ -22,7 +20,7 @@ namespace Sharpnado.Acrylic.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            SharpnadoInitializer.Initialize(true);
+            MaterialFrame.iOS.iOSMaterialFrameRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

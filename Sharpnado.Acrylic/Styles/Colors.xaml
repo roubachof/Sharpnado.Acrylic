@@ -3,6 +3,7 @@
 
 <ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
+    <Color x:Key="DarkSurface">#121212</Color>
     <Color x:Key="AcrylicSurface">#E6E6E6</Color>
 
     <Color x:Key="AcrylicFrameBackgroundColor">#F1F1F1</Color>

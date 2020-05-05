@@ -21,33 +21,32 @@
                     <OnPlatform.Platforms>
                         <On Platform="Android" Value="20,60,20,60" />
                         <On Platform="iOS" Value="20,40,20,60" />
+                        <On Platform="UWP" Value="20,60,20,20" />
                     </OnPlatform.Platforms>
                 </OnPlatform>
             </StackLayout.Padding>
 
-            <rv:MaterialFrame x:Name="SettingsFrame" IsVisible="True">
+            <rv:MaterialFrame x:Name="SettingsFrame"
+                              IsVisible="True"
+                              StyleId="1111">
                 <Grid x:Name="SettingsGrid"
                       ColumnSpacing="20"
                       RowSpacing="10">
                     <Grid.RowDefinitions>
-                        <RowDefinition x:Name="SwitchRow" Height="30" />
-                        <RowDefinition x:Name="BlurStyleRow" Height="30" />
+                        <RowDefinition x:Name="SwitchRow" Height="40" />
+                        <RowDefinition x:Name="BlurStyleRow" Height="40" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="50" />
-                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="60" />
+                        <ColumnDefinition Width="60" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Switch Grid.Row="0"
+                    <Switch x:Name="BlurSwitch"
+                            Grid.Row="0"
                             Grid.Column="0"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            OnColor="Black"
-                            Scale="0.8"
-                            ThumbColor="White"
-                            Toggled="SwitchOnToggled"
-                            TranslationX="-5" />
+                            Style="{StaticResource SwitchStyle}"
+                            Toggled="SwitchOnToggled" />
                     <Label Grid.Row="0"
                            Grid.Column="1"
                            Grid.ColumnSpan="2"
@@ -60,7 +59,7 @@
                             Grid.Row="1"
                             Grid.Column="0"
                             Style="{StaticResource RadioButton}"
-                            HorizontalOptions="End"
+                            HorizontalOptions="Start"
                             VerticalOptions="Center"
                             Clicked="BlurStyleButtonOnClicked"
                             Text="Light" />
@@ -140,7 +139,9 @@
 
             </Grid>
 
-            <rv:MaterialFrame x:Name="Search" Padding="20,5">
+            <rv:MaterialFrame x:Name="Search"
+                              Padding="20,5"
+                              StyleId="2222">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30" />
@@ -181,7 +182,7 @@
                        Source="{StaticResource IconDots}" />
             </Grid>
 
-            <rv:MaterialFrame>
+            <rv:MaterialFrame StyleId="3333">
                 <Grid RowSpacing="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30" />
@@ -244,7 +245,7 @@
                        Source="{StaticResource IconDots}" />
             </Grid>
 
-            <rv:MaterialFrame Padding="10,20">
+            <rv:MaterialFrame Padding="10,20" StyleId="4444">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40" />
@@ -351,7 +352,7 @@
                        Source="{StaticResource IconDots}" />
             </Grid>
 
-            <rv:MaterialFrame>
+            <rv:MaterialFrame StyleId="9999">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="20" />

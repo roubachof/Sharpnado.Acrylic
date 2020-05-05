@@ -16,6 +16,7 @@
         <Setter Property="LightThemeBackgroundColor" Value="{StaticResource AcrylicFrameBackgroundColor}" />
         <Setter Property="MaterialTheme" Value="{DynamicResource DynamicMaterialTheme}" />
         <Setter Property="MaterialBlurStyle" Value="{DynamicResource DynamicBlurStyle}" />
+        <Setter Property="Elevation" Value="{DynamicResource DynamicElevation}" />
     </Style>
 
 </ResourceDictionary>

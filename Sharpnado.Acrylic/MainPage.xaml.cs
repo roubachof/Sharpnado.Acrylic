@@ -2,7 +2,6 @@
 using System.ComponentModel;
 using System.Threading.Tasks;
 
-using Sharpnado.Presentation.Forms.RenderedViews;
 using Sharpnado.Tasks;
 
 using Xamarin.Forms;
@@ -20,7 +19,7 @@ namespace Sharpnado.Acrylic
 
         private bool _isSettingsShown;
 
-        private static readonly GridLength SettingsRowHeight = new GridLength(30);
+        private static readonly GridLength SettingsRowHeight = new GridLength(40);
 
         private readonly Button[] _blurStyleButtons;
 
@@ -29,16 +28,13 @@ namespace Sharpnado.Acrylic
             SetValue(NavigationPage.HasNavigationBarProperty, false);
             InitializeComponent();
 
-            _isAcrylicBlurEnabled = true;
+            _blurStyleButtons = new[] { LightButton, DarkButton, ExtraLightButton };
 
             SettingsFrame.IsVisible = _isSettingsShown;
             SettingsFrame.Opacity = _isSettingsShown ? 1 : 0;
-            BlurStyleRow.Height = !_isAcrylicBlurEnabled ? new GridLength() : SettingsRowHeight;
 
-            _blurStyleButtons = new[] { LightButton, DarkButton, ExtraLightButton };
-
-            ResourcesHelper.SetAcrylic(_isAcrylicBlurEnabled);
-            BlurStyleButtonOnClicked(LightButton, EventArgs.Empty);
+            // BlurSwitch.IsToggled = true;
+            SwitchOnToggled(BlurSwitch, new ToggledEventArgs(false));
         }
 
         protected override void OnAppearing()
@@ -52,11 +48,11 @@ namespace Sharpnado.Acrylic
         {
             await Task.Delay(3000);
 
-            var dump = PlatformHelper.Instance.DumpNativeViewHierarchy(Search, true);
-            Console.WriteLine($"Search Frame dump:{Environment.NewLine}{dump}");
+            //var dump = PlatformHelper.Instance.DumpNativeViewHierarchy(Search, true);
+            // Console.WriteLine($"Search Frame dump:{Environment.NewLine}{dump}");
 
-            dump = PlatformHelper.Instance.DumpNativeViewHierarchy(ImageFrame, true);
-            Console.WriteLine($"Image Frame dump:{Environment.NewLine}{dump}");
+            // dump = PlatformHelper.Instance.DumpNativeViewHierarchy(ImageFrame, true);
+            // Console.WriteLine($"Image Frame dump:{Environment.NewLine}{dump}");
         }
 
         private void SettingsButtonOnClicked(object sender, EventArgs e)
@@ -86,13 +82,21 @@ namespace Sharpnado.Acrylic
 
             _isAcrylicBlurEnabled = switchBlur.IsToggled;
 
-            ResourcesHelper.SetAcrylic(_isAcrylicBlurEnabled);
             if (_isAcrylicBlurEnabled)
             {
+                ResourcesHelper.SetAcrylic(true);
                 BlurStyleButtonOnClicked(LightButton, EventArgs.Empty);
+            }
+            else
+            {
+                ResourcesHelper.SetAcrylic(false);
             }
 
             BlurStyleRow.Height = _isAcrylicBlurEnabled ? SettingsRowHeight : 0;
+            foreach (var button in _blurStyleButtons)
+            {
+                button.IsVisible = _isAcrylicBlurEnabled;
+            }
         }
 
         private void BlurStyleButtonOnClicked(object sender, EventArgs e)
