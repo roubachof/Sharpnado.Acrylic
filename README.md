@@ -4,13 +4,25 @@ Where **Sharpnado** is experimenting Acrylic effects.
 
 ![Presentation](__Docs__/github_banner.png)
 
+## Installation
+
+First clone the [Sharpnado.Material](https://github.com/roubachof/Sharpnado.MaterialFrame) frame repo at the same level than this repo:
+
+```
+Dev
+  |___ Sharpnado.Acrylic
+  |___ Sharpnado.MaterialFrame
+
+```
+
+## Acrylic Styles
 
 `MaterialFrame.xaml` file:
 
 ```xml
 <ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                    xmlns:rv="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms">
+                    xmlns:rv="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame">
 
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="Colors.xaml" />
