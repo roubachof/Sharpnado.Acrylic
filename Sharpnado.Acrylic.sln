@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpnado.Acrylic", "Sharpn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaterialFrame", "MaterialFrame", "{932B157B-E2E3-44DE-8678-E344F4D85EE3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialFrame", "..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame\MaterialFrame.csproj", "{127470F1-4C3F-442B-84C7-6B771CB5D113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialFrame", "..\..\MaterialFrame\MaterialFrame\MaterialFrame.csproj", "{127470F1-4C3F-442B-84C7-6B771CB5D113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialFrame.Android", "..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame.Android\MaterialFrame.Android.csproj", "{F6719964-727A-4C81-9C32-FA0B08CA8AE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialFrame.Android", "..\..\MaterialFrame\MaterialFrame.Android\MaterialFrame.Android.csproj", "{F6719964-727A-4C81-9C32-FA0B08CA8AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialFrame.iOS", "..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame.iOS\MaterialFrame.iOS.csproj", "{29B1C798-02D7-4732-ACC5-0FD2E4BBEC8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialFrame.iOS", "..\..\MaterialFrame\MaterialFrame.iOS\MaterialFrame.iOS.csproj", "{29B1C798-02D7-4732-ACC5-0FD2E4BBEC8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialFrame.UWP", "..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame.UWP\MaterialFrame.UWP.csproj", "{1E904232-AE2E-4D45-95F3-0C9F4D12831C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialFrame.UWP", "..\..\MaterialFrame\MaterialFrame.UWP\MaterialFrame.UWP.csproj", "{1E904232-AE2E-4D45-95F3-0C9F4D12831C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpnado.Acrylic.UWP", "Sharpnado.Acrylic.UWP\Sharpnado.Acrylic.UWP.csproj", "{3D3B737E-06E6-4A77-8A3B-789837CE2D11}"
 EndProject

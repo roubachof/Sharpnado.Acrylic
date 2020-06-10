@@ -104,9 +104,13 @@
     <AndroidResource Include="Resources\drawable\milky_light.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame.Android\MaterialFrame.Android.csproj">
+    <ProjectReference Include="..\..\..\MaterialFrame\MaterialFrame.Android\MaterialFrame.Android.csproj">
       <Project>{f6719964-727a-4c81-9c32-fa0b08ca8ae6}</Project>
       <Name>MaterialFrame.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MaterialFrame\MaterialFrame\MaterialFrame.csproj">
+      <Project>{127470f1-4c3f-442b-84c7-6b771cb5d113}</Project>
+      <Name>MaterialFrame</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sharpnado.Acrylic\Sharpnado.Acrylic.csproj">
       <Project>{A5BE210F-0735-431E-9BF3-1F2875D3BA92}</Project>

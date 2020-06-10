@@ -1,19 +1,17 @@
 # Sharpnado Acrylic
 
 Where **Sharpnado** is experimenting Acrylic effects.
+This repository is now the official sample app for the [Sharpnado.MaterialFrame](https://github.com/roubachof/Sharpnado.MaterialFrame).
 
 ![Presentation](__Docs__/github_banner.png)
 
 ## Installation
 
-First clone the [Sharpnado.Material](https://github.com/roubachof/Sharpnado.MaterialFrame) frame repo at the same level than this repo:
+You should clone the [Sharpnado.MaterialFrame](https://github.com/roubachof/Sharpnado.MaterialFrame) repo, and then this repository will be available as a sub-module.
 
-```
-Dev
-  |___ Sharpnado.Acrylic
-  |___ Sharpnado.MaterialFrame
+Always open the `Sharpnado.Acrylic.sln` file from the `Sharpnado.MaterialFrame\Samples\Sharpnado.Acrylic` folder.
 
-```
+Or you could clone this repository, remove the references towards the `MaterialFrame` projects and then add `MaterialFrame` as a nuget package.
 
 ## Acrylic Styles
 

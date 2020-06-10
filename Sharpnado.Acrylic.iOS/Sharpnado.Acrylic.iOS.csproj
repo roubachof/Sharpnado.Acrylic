@@ -143,11 +143,15 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame.iOS\MaterialFrame.iOS.csproj">
+    <ProjectReference Include="..\..\..\MaterialFrame\MaterialFrame.iOS\MaterialFrame.iOS.csproj">
       <Project>{29b1c798-02d7-4732-acc5-0fd2e4bbec8b}</Project>
       <Name>MaterialFrame.iOS</Name>
       <IsAppExtension>false</IsAppExtension>
       <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MaterialFrame\MaterialFrame\MaterialFrame.csproj">
+      <Project>{127470f1-4c3f-442b-84c7-6b771cb5d113}</Project>
+      <Name>MaterialFrame</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sharpnado.Acrylic\Sharpnado.Acrylic.csproj">
       <Project>{A5BE210F-0735-431E-9BF3-1F2875D3BA92}</Project>

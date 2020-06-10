@@ -164,9 +164,13 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame.UWP\MaterialFrame.UWP.csproj">
+    <ProjectReference Include="..\..\..\MaterialFrame\MaterialFrame.UWP\MaterialFrame.UWP.csproj">
       <Project>{1e904232-ae2e-4d45-95f3-0c9f4d12831c}</Project>
       <Name>MaterialFrame.UWP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MaterialFrame\MaterialFrame\MaterialFrame.csproj">
+      <Project>{127470f1-4c3f-442b-84c7-6b771cb5d113}</Project>
+      <Name>MaterialFrame</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sharpnado.Acrylic\Sharpnado.Acrylic.csproj">
       <Project>{4a4b357c-63c2-4572-b25f-0ce9391b6766}</Project>

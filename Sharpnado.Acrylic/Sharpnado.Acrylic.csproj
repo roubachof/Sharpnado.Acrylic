@@ -55,6 +55,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Sharpnado.MaterialFrame\MaterialFrame\MaterialFrame\MaterialFrame.csproj" />
+    <ProjectReference Include="..\..\..\MaterialFrame\MaterialFrame\MaterialFrame.csproj" />
   </ItemGroup>
 </Project>
