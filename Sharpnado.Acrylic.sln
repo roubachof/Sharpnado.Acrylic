@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialFrame.UWP", "..\..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpnado.Acrylic.UWP", "Sharpnado.Acrylic.UWP\Sharpnado.Acrylic.UWP.csproj", "{3D3B737E-06E6-4A77-8A3B-789837CE2D11}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{5CFF422C-09D1-45BC-A715-CE0A87FDB815}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\MaterialFrame\AssemblyInfo.targets = ..\..\MaterialFrame\AssemblyInfo.targets
+		..\..\Sharpnado.MaterialFrame.nuspec = ..\..\Sharpnado.MaterialFrame.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -446,6 +452,7 @@ Global
 		{F6719964-727A-4C81-9C32-FA0B08CA8AE6} = {932B157B-E2E3-44DE-8678-E344F4D85EE3}
 		{29B1C798-02D7-4732-ACC5-0FD2E4BBEC8B} = {932B157B-E2E3-44DE-8678-E344F4D85EE3}
 		{1E904232-AE2E-4D45-95F3-0C9F4D12831C} = {932B157B-E2E3-44DE-8678-E344F4D85EE3}
+		{5CFF422C-09D1-45BC-A715-CE0A87FDB815} = {932B157B-E2E3-44DE-8678-E344F4D85EE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B96919F-65A7-4C83-88B2-4BA76A25DE2B}
