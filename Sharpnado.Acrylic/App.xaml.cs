@@ -8,6 +8,8 @@ namespace Sharpnado.Acrylic
         {
             InitializeComponent();
 
+            MaterialFrame.Initializer.Initialize(true, true);
+
             MainPage = new MainPage();
         }
 

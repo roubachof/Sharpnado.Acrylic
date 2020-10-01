@@ -44,7 +44,7 @@ namespace Sharpnado.Acrylic.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                var rendererAssemblies = new[] { typeof(UWPMaterialFrameRenderer).GetTypeInfo().Assembly, };
+                var rendererAssemblies = new[] { typeof(UWPMaterialFrameRenderer).GetTypeInfo().Assembly };
 
                 Xamarin.Forms.Forms.Init(e, rendererAssemblies);
 
