@@ -33,7 +33,7 @@ namespace Sharpnado.Acrylic
             SettingsFrame.IsVisible = _isSettingsShown;
             SettingsFrame.Opacity = _isSettingsShown ? 1 : 0;
 
-            // BlurSwitch.IsToggled = true;
+            BlurSwitch.IsToggled = true;
             SwitchOnToggled(BlurSwitch, new ToggledEventArgs(false));
         }
 
