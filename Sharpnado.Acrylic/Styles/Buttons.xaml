@@ -11,6 +11,7 @@
                 <OnPlatform.Platforms>
                     <On Platform="Android" Value="0.8" />
                     <On Platform="iOS" Value="0.8" />
+                    <On Platform="macOS" Value="0.8" />
                     <On Platform="UWP" Value="1" />
                 </OnPlatform.Platforms>
             </OnPlatform>
@@ -24,6 +25,7 @@
                 <OnPlatform.Platforms>
                     <On Platform="Android" Value="-5" />
                     <On Platform="iOS" Value="-5" />
+                    <On Platform="macOS" Value="-5" />
                     <On Platform="UWP" Value="0" />
                 </OnPlatform.Platforms>
             </OnPlatform>
@@ -39,6 +41,7 @@
                 <OnPlatform.Platforms>
                     <On Platform="Android" Value="30" />
                     <On Platform="iOS" Value="30" />
+                    <On Platform="macOS" Value="30" />
                     <On Platform="UWP" Value="30" />
                 </OnPlatform.Platforms>
             </OnPlatform>
@@ -48,6 +51,7 @@
                 <OnPlatform.Platforms>
                     <On Platform="Android" Value="0" />
                     <On Platform="iOS" Value="10" />
+                    <On Platform="macOS" Value="10" />
                     <On Platform="UWP" Value="10,0" />
                 </OnPlatform.Platforms>
             </OnPlatform>

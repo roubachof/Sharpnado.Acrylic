@@ -129,14 +129,16 @@
                        Text="   11°C  Paris"
                        TextColor="{DynamicResource DynamicSecondaryOnBackgroundColor}" />
 
-                <ImageButton Grid.Row="0"
-                             Grid.RowSpan="2"
-                             Grid.Column="3"
-                             HorizontalOptions="End"
-                             VerticalOptions="Center"
-                             Clicked="SettingsButtonOnClicked"
-                             Source="{StaticResource IconCog}" />
-
+                <Image Grid.Row="0"
+                       Grid.RowSpan="2"
+                       Grid.Column="3"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       Source="{StaticResource IconCog}">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="SettingsButtonOnClicked" />
+                    </Image.GestureRecognizers>
+                </Image>
             </Grid>
 
             <rv:MaterialFrame x:Name="Search"
