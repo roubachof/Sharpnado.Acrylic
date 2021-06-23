@@ -102,6 +102,9 @@ namespace Sharpnado.Acrylic
                         case Device.iOS:
                             wallpaper = "catalina_dark.jpg";
                             break;
+                        case Device.macOS:
+                            wallpaper = "catalina_dark.jpg";
+                            break;
                         case Device.Android:
                             wallpaper = "bing_dark.jpg";
                             break;
@@ -120,6 +123,9 @@ namespace Sharpnado.Acrylic
                         case Device.iOS:
                             wallpaper = "catalina_light.jpg";
                             break;
+                        case Device.macOS:
+                            wallpaper = "catalina_light.jpg";
+                            break;
                         case Device.Android:
                             wallpaper = "milky_light.jpg";
                             break;
@@ -136,6 +142,9 @@ namespace Sharpnado.Acrylic
                     switch (Device.RuntimePlatform)
                     {
                         case Device.iOS:
+                            wallpaper = "undersea_light.jpg";
+                            break;
+                        case Device.macOS:
                             wallpaper = "undersea_light.jpg";
                             break;
                         case Device.Android:
