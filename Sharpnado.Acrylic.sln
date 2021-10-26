@@ -24,6 +24,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{5CFF422C-09D1-45BC-A715-CE0A87FDB815}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\MaterialFrame\AssemblyInfo.targets = ..\..\MaterialFrame\AssemblyInfo.targets
+		..\..\make-package.ps1 = ..\..\make-package.ps1
 		..\..\README.md = ..\..\README.md
 		..\..\Sharpnado.MaterialFrame.nuspec = ..\..\Sharpnado.MaterialFrame.nuspec
 	EndProjectSection
